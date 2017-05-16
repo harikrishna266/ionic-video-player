@@ -64,6 +64,8 @@ video { border-radius: 6px; }
     left:10px;
     width:360px;
     z-index:5;
+    padding: 0;
+    margin: 0;
     
 }
 /* control bottom part */
@@ -175,8 +177,11 @@ video { border-radius: 6px; }
 }
 .bufferBar{
     z-index:5;
-    width:0;
+    width:10px;
+    height:20px;
+    border-radius:10px;
     background: rgba(255,255,255,0.2);
+    background-color: dodgerblue;
 }
 
 /* VOLUME BAR CSS */
@@ -199,3 +204,5 @@ video { border-radius: 6px; }
     background-color:#eee;
     z-index:10;
 }
+
+
